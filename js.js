@@ -3,3 +3,5 @@
  let toggledMenu = menuToggle.addEventListener("click", function(){
 	for(let activated = 0; activated < activeElements.length; activated++) {
 		activeElements[activated].classList.toggle("active"); } })
+
+
